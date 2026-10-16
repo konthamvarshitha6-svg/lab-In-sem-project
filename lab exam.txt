@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Placement Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>College Placement Management System</h1>
+        <p>Manage students, companies and placements</p>
+    </header>
+
+    <main>
+        <h2>Student Registration</h2>
+        <form id="placementForm">
+            <input type="text" id="name"
+                   placeholder="Student Name" required>
+            <input type="text" id="branch"
+                   placeholder="Branch" required>
+            <input type="email" id="email"
+                   placeholder="Email Address" required>
+            <button type="submit">Register Student</button>
+        </form>
+
+        <h2>Registered Students</h2>
+        <ul id="studentList"></ul>
+
+        <h2>Upcoming Companies</h2>
+        <ul>
+            <li>TCS - Software Developer</li>
+            <li>Infosys - System Engineer</li>
+            <li>Wipro - Graduate Trainee</li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>College Placement Management System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
